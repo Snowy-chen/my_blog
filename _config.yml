@@ -1,8 +1,6 @@
 title: Snowy Shared Space
 description: share something what i learned~ 
-remote_theme: cotes2020/jekyll-theme-chirpy
-plugins:
-- jekyll-remote-theme 
+theme: jekyll-theme-chirpy
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
