@@ -9,7 +9,7 @@ categories: [blog]
 
 同一套代码，通过某一框架将源码编译转换操作。
 
-![多端转换原理](../assets/images/taro-multi-end.jpg)
+![多端转换原理](/assets/images/taro-multi-end.jpg)
 
 ## 抹平多端差异
 
@@ -33,7 +33,7 @@ categories: [blog]
 
 **运行时：** 通过定义三个标准抹平个端差异
 
-![基本架构](../assets/images/taro-2.jpg)
+![基本架构](/assets/images/taro-2.jpg)
 
 ## 编译
 
@@ -49,7 +49,7 @@ mini-runner （webpack），生成webpack配置，创建webpack 实例，最总�
 
 将**一种结构化语言的代码**编译成另**外一种类似结构化语言**的代码步骤
 
-![编译工作流与抽象语法树](../assets/images/taro-3.jpg)
+![编译工作流与抽象语法树](/assets/images/taro-3.jpg)
 
 1. Parse，将代码解析成抽象语法树（AST）
 2. 对AST进行遍历与替换，生成新的AST
