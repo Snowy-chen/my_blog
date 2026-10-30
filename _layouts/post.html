@@ -5,6 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <style>
+    .section-wrapper {
+        width: 1200px;
+        margin: 0 auto;
+        color: #333;
+    }
+
+    header {
+      mrgin-bottom: 30px;
+      background-color: #1b7c27;
+      padding: 20px;
+      color: #eeeeee;
+    }
+    header a {
+      color: #eeeeee;
+    }
+  </style>
 </head>
 <body>
   <div class="wrapper">
@@ -13,7 +30,7 @@
       <p>{{ site.description }}</p>
       <p><a href="{{ '/' | absolute_url }}">← 返回首页</a></p>
     </header>
-    <section>
+    <section class="section-wrapper">
       <h2>{{ page.title }}</h2>
       <p style="color: #666; font-size: 0.9em;">发布于 {{ page.date | date: "%Y-%m-%d" }}</p>
       <hr>
