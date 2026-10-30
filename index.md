@@ -10,7 +10,7 @@ layout: default
        {% if post.image %}
       <img src="{{post.image | relative_url}}" style="width: 200px; margin-right: 10px; border: 1px solid #eee; border-radius: 5px; padding: 5px; background-color: #eee;">
       {% endif %}
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
+      <a href="{{ post.url | relative_url }}" style="color: #333">{{ post.title }}</a> 
       <span style="color: #999; font-size: 0.9em;">- {{ post.date | date: "%Y-%m-%d" }}</span>
     </li>
   {% endfor %}
