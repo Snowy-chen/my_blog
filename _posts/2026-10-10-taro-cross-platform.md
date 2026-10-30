@@ -3,6 +3,7 @@ layout: post
 title: "初探Taro跨端思考"
 date: 2026-10-10
 categories: [blog]
+image: /assets/images/taro-2.jpg
 ---
 
 ## 多端转换原理
