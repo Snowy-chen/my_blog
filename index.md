@@ -4,9 +4,18 @@ layout: default
 
 # 最新文章
 
-<ul>
+<ul style="list-style: none;padding: 15px 0; color: #333;">
   {% for post in site.posts %}
-    <li>
+    <li style="display: flex;">
+      <img src="{{post.url}}" style="
+          width: 200px;
+          margin-right: 10px;
+          border: 1px solid #eee;
+          border-radius: 5px;
+          box-shadow: 1px 3px 4px 1;
+          padding: 5px;
+          background-color: #eee;
+      ">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
       <span style="color: #999; font-size: 0.9em;">- {{ post.date | date: "%Y-%m-%d" }}</span>
     </li>
